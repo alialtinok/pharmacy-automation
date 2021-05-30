@@ -1,0 +1,20 @@
+.root{  
+    -fx-background-color:Wheat;  
+    -fx-alignment:center;  
+    -fx-background-radius: 10;  
+}  
+.label{  
+    -fx-padding : 4;  
+    -fx-text-fill : rgb(245,123,201);  
+}  
+.button {  
+    -fx-font : 14px "serief";  
+    -fx-padding : 10;  
+    -fx-background-color : #CCFF99;  
+}   
+#title  
+{  
+    -fx-font:bold18pt"Arial";   
+    -fx-effect:dropshadow(one-pass-box,BLUE,8,0.0,2,0);  
+      
+}  

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="521.0" prefWidth="800.0" stylesheets="@../CSS/stylesheet.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AnasayfaController">
+   <children>
+      <ImageView fitHeight="587.0" fitWidth="800.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/eczanegiris.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_eczane" layoutX="122.0" layoutY="93.0" mnemonicParsing="false" onAction="#btn_eczane_Click" prefHeight="83.0" prefWidth="238.0" text="ECZANE" />
+      <Button fx:id="btn_ilacsatis" layoutX="122.0" layoutY="241.0" mnemonicParsing="false" onAction="#btn_ilacsatis_Click" prefHeight="83.0" prefWidth="158.0" text="İLAÇ SATIŞ" />
+      <Button fx:id="btn_firma" layoutX="429.0" layoutY="93.0" mnemonicParsing="false" onAction="#btn_firma_Click" prefHeight="83.0" prefWidth="213.0" text="İLAÇ FİRMA" />
+      <Button fx:id="btn_ilacislem" layoutX="393.0" layoutY="241.0" mnemonicParsing="false" onAction="#btn_ilacislem_Click" prefHeight="83.0" prefWidth="146.0" text="İLAÇ İŞLEMLER" />
+      <Button fx:id="btn_geri" layoutX="131.0" layoutY="382.0" mnemonicParsing="false" onAction="#btn_geri_Click" prefHeight="83.0" prefWidth="238.0" text="KİLİTLE" />
+      <Button fx:id="btn_cikis" layoutX="429.0" layoutY="382.0" mnemonicParsing="false" onAction="#btn_cikis_Click" prefHeight="83.0" prefWidth="214.0" text="ÇIKIŞ" />
+      <Label alignment="CENTER" layoutX="160.0" layoutY="14.0" prefHeight="54.0" prefWidth="418.0" style="-fx-background-color: red;" styleClass="label-header1" text="ALTINOK ECZANESİ" textFill="RED">
+         <font>
+            <Font name="Book Antiqua Bold" size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_hasta" layoutX="593.0" layoutY="241.0" mnemonicParsing="false" onAction="#btn_hasta_Click" prefHeight="83.0" prefWidth="158.0" text="HASTA" />
+   </children>
+</AnchorPane>
